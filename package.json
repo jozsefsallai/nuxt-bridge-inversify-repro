@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-bridge-inversify-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.17.9",
+    "@nuxt/types": "^2.15.8",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "postcss": "^8.4.13",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27530716.c4f8671",
+    "inversify": "^5.0.1",
+    "nuxt-edge": "^2.16.0-27358576.777a4b7f",
+    "nuxt-property-decorator": "^2.9.1",
+    "vue": "^2.6.14"
+  }
+}
